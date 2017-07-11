@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		239794FD1F137AFF00F0F016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239794FC1F137AFF00F0F016 /* AppDelegate.swift */; };
+		239794FF1F137AFF00F0F016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239794FE1F137AFF00F0F016 /* ViewController.swift */; };
+		239795021F137AFF00F0F016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239795001F137AFF00F0F016 /* Main.storyboard */; };
+		239795041F137AFF00F0F016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239795031F137AFF00F0F016 /* Assets.xcassets */; };
+		239795071F137AFF00F0F016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239795051F137AFF00F0F016 /* LaunchScreen.storyboard */; };
+		239795121F137B0000F0F016 /* SummerPracticeDamirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239795111F137B0000F0F016 /* SummerPracticeDamirTests.swift */; };
+		2397951D1F137B0000F0F016 /* SummerPracticeDamirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2397951C1F137B0000F0F016 /* SummerPracticeDamirUITests.swift */; };
+		239795311F13B34700F0F016 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239795301F13B34700F0F016 /* InformationViewController.swift */; };
+		239795331F13B3E900F0F016 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239795321F13B3E900F0F016 /* RegistrationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2397950E1F137B0000F0F016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 239794F11F137AFF00F0F016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 239794F81F137AFF00F0F016;
+			remoteInfo = SummerPracticeDamir;
+		};
+		239795191F137B0000F0F016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 239794F11F137AFF00F0F016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 239794F81F137AFF00F0F016;
+			remoteInfo = SummerPracticeDamir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		239794F91F137AFF00F0F016 /* SummerPracticeDamir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerPracticeDamir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		239794FC1F137AFF00F0F016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		239794FE1F137AFF00F0F016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		239795011F137AFF00F0F016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		239795031F137AFF00F0F016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		239795061F137AFF00F0F016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		239795081F137AFF00F0F016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2397950D1F137B0000F0F016 /* SummerPracticeDamirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerPracticeDamirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		239795111F137B0000F0F016 /* SummerPracticeDamirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerPracticeDamirTests.swift; sourceTree = "<group>"; };
+		239795131F137B0000F0F016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		239795181F137B0000F0F016 /* SummerPracticeDamirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerPracticeDamirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2397951C1F137B0000F0F016 /* SummerPracticeDamirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerPracticeDamirUITests.swift; sourceTree = "<group>"; };
+		2397951E1F137B0000F0F016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		239795301F13B34700F0F016 /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		239795321F13B3E900F0F016 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		239794F61F137AFF00F0F016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2397950A1F137B0000F0F016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239795151F137B0000F0F016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		239794F01F137AFF00F0F016 = {
+			isa = PBXGroup;
+			children = (
+				239794FB1F137AFF00F0F016 /* SummerPracticeDamir */,
+				239795101F137B0000F0F016 /* SummerPracticeDamirTests */,
+				2397951B1F137B0000F0F016 /* SummerPracticeDamirUITests */,
+				239794FA1F137AFF00F0F016 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		239794FA1F137AFF00F0F016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				239794F91F137AFF00F0F016 /* SummerPracticeDamir.app */,
+				2397950D1F137B0000F0F016 /* SummerPracticeDamirTests.xctest */,
+				239795181F137B0000F0F016 /* SummerPracticeDamirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		239794FB1F137AFF00F0F016 /* SummerPracticeDamir */ = {
+			isa = PBXGroup;
+			children = (
+				239794FC1F137AFF00F0F016 /* AppDelegate.swift */,
+				239794FE1F137AFF00F0F016 /* ViewController.swift */,
+				239795301F13B34700F0F016 /* InformationViewController.swift */,
+				239795321F13B3E900F0F016 /* RegistrationViewController.swift */,
+				239795001F137AFF00F0F016 /* Main.storyboard */,
+				239795031F137AFF00F0F016 /* Assets.xcassets */,
+				239795051F137AFF00F0F016 /* LaunchScreen.storyboard */,
+				239795081F137AFF00F0F016 /* Info.plist */,
+			);
+			path = SummerPracticeDamir;
+			sourceTree = "<group>";
+		};
+		239795101F137B0000F0F016 /* SummerPracticeDamirTests */ = {
+			isa = PBXGroup;
+			children = (
+				239795111F137B0000F0F016 /* SummerPracticeDamirTests.swift */,
+				239795131F137B0000F0F016 /* Info.plist */,
+			);
+			path = SummerPracticeDamirTests;
+			sourceTree = "<group>";
+		};
+		2397951B1F137B0000F0F016 /* SummerPracticeDamirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2397951C1F137B0000F0F016 /* SummerPracticeDamirUITests.swift */,
+				2397951E1F137B0000F0F016 /* Info.plist */,
+			);
+			path = SummerPracticeDamirUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		239794F81F137AFF00F0F016 /* SummerPracticeDamir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 239795211F137B0000F0F016 /* Build configuration list for PBXNativeTarget "SummerPracticeDamir" */;
+			buildPhases = (
+				239794F51F137AFF00F0F016 /* Sources */,
+				239794F61F137AFF00F0F016 /* Frameworks */,
+				239794F71F137AFF00F0F016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SummerPracticeDamir;
+			productName = SummerPracticeDamir;
+			productReference = 239794F91F137AFF00F0F016 /* SummerPracticeDamir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2397950C1F137B0000F0F016 /* SummerPracticeDamirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 239795241F137B0000F0F016 /* Build configuration list for PBXNativeTarget "SummerPracticeDamirTests" */;
+			buildPhases = (
+				239795091F137B0000F0F016 /* Sources */,
+				2397950A1F137B0000F0F016 /* Frameworks */,
+				2397950B1F137B0000F0F016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2397950F1F137B0000F0F016 /* PBXTargetDependency */,
+			);
+			name = SummerPracticeDamirTests;
+			productName = SummerPracticeDamirTests;
+			productReference = 2397950D1F137B0000F0F016 /* SummerPracticeDamirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		239795171F137B0000F0F016 /* SummerPracticeDamirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 239795271F137B0000F0F016 /* Build configuration list for PBXNativeTarget "SummerPracticeDamirUITests" */;
+			buildPhases = (
+				239795141F137B0000F0F016 /* Sources */,
+				239795151F137B0000F0F016 /* Frameworks */,
+				239795161F137B0000F0F016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2397951A1F137B0000F0F016 /* PBXTargetDependency */,
+			);
+			name = SummerPracticeDamirUITests;
+			productName = SummerPracticeDamirUITests;
+			productReference = 239795181F137B0000F0F016 /* SummerPracticeDamirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		239794F11F137AFF00F0F016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = itisioslab;
+				TargetAttributes = {
+					239794F81F137AFF00F0F016 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2397950C1F137B0000F0F016 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 239794F81F137AFF00F0F016;
+					};
+					239795171F137B0000F0F016 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 239794F81F137AFF00F0F016;
+					};
+				};
+			};
+			buildConfigurationList = 239794F41F137AFF00F0F016 /* Build configuration list for PBXProject "SummerPracticeDamir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 239794F01F137AFF00F0F016;
+			productRefGroup = 239794FA1F137AFF00F0F016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				239794F81F137AFF00F0F016 /* SummerPracticeDamir */,
+				2397950C1F137B0000F0F016 /* SummerPracticeDamirTests */,
+				239795171F137B0000F0F016 /* SummerPracticeDamirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		239794F71F137AFF00F0F016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239795071F137AFF00F0F016 /* LaunchScreen.storyboard in Resources */,
+				239795041F137AFF00F0F016 /* Assets.xcassets in Resources */,
+				239795021F137AFF00F0F016 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2397950B1F137B0000F0F016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239795161F137B0000F0F016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		239794F51F137AFF00F0F016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239794FF1F137AFF00F0F016 /* ViewController.swift in Sources */,
+				239794FD1F137AFF00F0F016 /* AppDelegate.swift in Sources */,
+				239795331F13B3E900F0F016 /* RegistrationViewController.swift in Sources */,
+				239795311F13B34700F0F016 /* InformationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239795091F137B0000F0F016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239795121F137B0000F0F016 /* SummerPracticeDamirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239795141F137B0000F0F016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2397951D1F137B0000F0F016 /* SummerPracticeDamirUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2397950F1F137B0000F0F016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 239794F81F137AFF00F0F016 /* SummerPracticeDamir */;
+			targetProxy = 2397950E1F137B0000F0F016 /* PBXContainerItemProxy */;
+		};
+		2397951A1F137B0000F0F016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 239794F81F137AFF00F0F016 /* SummerPracticeDamir */;
+			targetProxy = 239795191F137B0000F0F016 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		239795001F137AFF00F0F016 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				239795011F137AFF00F0F016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		239795051F137AFF00F0F016 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				239795061F137AFF00F0F016 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2397951F1F137B0000F0F016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		239795201F137B0000F0F016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		239795221F137B0000F0F016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SummerPracticeDamir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itisioslab.SummerPracticeDamir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		239795231F137B0000F0F016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SummerPracticeDamir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itisioslab.SummerPracticeDamir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		239795251F137B0000F0F016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SummerPracticeDamirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itisioslab.SummerPracticeDamirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerPracticeDamir.app/SummerPracticeDamir";
+			};
+			name = Debug;
+		};
+		239795261F137B0000F0F016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SummerPracticeDamirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itisioslab.SummerPracticeDamirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerPracticeDamir.app/SummerPracticeDamir";
+			};
+			name = Release;
+		};
+		239795281F137B0000F0F016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SummerPracticeDamirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itisioslab.SummerPracticeDamirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SummerPracticeDamir;
+			};
+			name = Debug;
+		};
+		239795291F137B0000F0F016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SummerPracticeDamirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itisioslab.SummerPracticeDamirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SummerPracticeDamir;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		239794F41F137AFF00F0F016 /* Build configuration list for PBXProject "SummerPracticeDamir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2397951F1F137B0000F0F016 /* Debug */,
+				239795201F137B0000F0F016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		239795211F137B0000F0F016 /* Build configuration list for PBXNativeTarget "SummerPracticeDamir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239795221F137B0000F0F016 /* Debug */,
+				239795231F137B0000F0F016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		239795241F137B0000F0F016 /* Build configuration list for PBXNativeTarget "SummerPracticeDamirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239795251F137B0000F0F016 /* Debug */,
+				239795261F137B0000F0F016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		239795271F137B0000F0F016 /* Build configuration list for PBXNativeTarget "SummerPracticeDamirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239795281F137B0000F0F016 /* Debug */,
+				239795291F137B0000F0F016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 239794F11F137AFF00F0F016 /* Project object */;
+}
